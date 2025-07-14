@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC48B1152DEFE20F00F9D89D /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BC48B1142DEFE20F00F9D89D /* CombineMoya */; };
+		BC48B1172DEFE20F00F9D89D /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BC48B1162DEFE20F00F9D89D /* Moya */; };
+		BC48B1192DEFE20F00F9D89D /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BC48B1182DEFE20F00F9D89D /* ReactiveMoya */; };
+		BC48B11B2DEFE20F00F9D89D /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BC48B11A2DEFE20F00F9D89D /* RxMoya */; };
+		BCAE97E02DCA3A0D008AD58A /* Qiri Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BCAE97DF2DCA3A0D008AD58A /* Qiri Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAE97CA2DCA3A0D008AD58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE97B12DCA3A0B008AD58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE97B82DCA3A0B008AD58A;
+			remoteInfo = Qiri;
+		};
+		BCAE97D42DCA3A0D008AD58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE97B12DCA3A0B008AD58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE97B82DCA3A0B008AD58A;
+			remoteInfo = Qiri;
+		};
+		BCAE97F22DCA3A0E008AD58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE97B12DCA3A0B008AD58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE97DE2DCA3A0D008AD58A;
+			remoteInfo = "Qiri Watch App";
+		};
+		BCAE97FC2DCA3A0E008AD58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE97B12DCA3A0B008AD58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE97DE2DCA3A0D008AD58A;
+			remoteInfo = "Qiri Watch App";
+		};
+		BCEE41B42E0F933A002AC57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE97B12DCA3A0B008AD58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE97DE2DCA3A0D008AD58A;
+			remoteInfo = "Qiri Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCAE98082DCA3A0E008AD58A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BCAE97E02DCA3A0D008AD58A /* Qiri Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCAE97B92DCA3A0B008AD58A /* Qiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE97C92DCA3A0D008AD58A /* QiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE97D32DCA3A0D008AD58A /* QiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE97DF2DCA3A0D008AD58A /* Qiri Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qiri Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE97F12DCA3A0E008AD58A /* Qiri Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qiri Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE97FB2DCA3A0E008AD58A /* Qiri Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qiri Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BCD379FE2E24DCB70098AE84 /* Exceptions for "Qiri" folder in "Qiri" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BCAE97B82DCA3A0B008AD58A /* Qiri */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BCAE97BB2DCA3A0B008AD58A /* Qiri */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BCD379FE2E24DCB70098AE84 /* Exceptions for "Qiri" folder in "Qiri" target */,
+			);
+			path = Qiri;
+			sourceTree = "<group>";
+		};
+		BCAE97CC2DCA3A0D008AD58A /* QiriTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QiriTests;
+			sourceTree = "<group>";
+		};
+		BCAE97D62DCA3A0D008AD58A /* QiriUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QiriUITests;
+			sourceTree = "<group>";
+		};
+		BCAE97E32DCA3A0D008AD58A /* Qiri Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Qiri Watch App";
+			sourceTree = "<group>";
+		};
+		BCAE97F42DCA3A0E008AD58A /* Qiri Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Qiri Watch AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAE97B62DCA3A0B008AD58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC48B1172DEFE20F00F9D89D /* Moya in Frameworks */,
+				BC48B1152DEFE20F00F9D89D /* CombineMoya in Frameworks */,
+				BC48B11B2DEFE20F00F9D89D /* RxMoya in Frameworks */,
+				BC48B1192DEFE20F00F9D89D /* ReactiveMoya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97C62DCA3A0D008AD58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97D02DCA3A0D008AD58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97DC2DCA3A0D008AD58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97EE2DCA3A0E008AD58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97F82DCA3A0E008AD58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAE97B02DCA3A0B008AD58A = {
+			isa = PBXGroup;
+			children = (
+				BCAE97BB2DCA3A0B008AD58A /* Qiri */,
+				BCAE97CC2DCA3A0D008AD58A /* QiriTests */,
+				BCAE97D62DCA3A0D008AD58A /* QiriUITests */,
+				BCAE97E32DCA3A0D008AD58A /* Qiri Watch App */,
+				BCAE97F42DCA3A0E008AD58A /* Qiri Watch AppTests */,
+				BCEE41B12E0F9320002AC57E /* Frameworks */,
+				BCAE97BA2DCA3A0B008AD58A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAE97BA2DCA3A0B008AD58A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE97B92DCA3A0B008AD58A /* Qiri.app */,
+				BCAE97C92DCA3A0D008AD58A /* QiriTests.xctest */,
+				BCAE97D32DCA3A0D008AD58A /* QiriUITests.xctest */,
+				BCAE97DF2DCA3A0D008AD58A /* Qiri Watch App.app */,
+				BCAE97F12DCA3A0E008AD58A /* Qiri Watch AppTests.xctest */,
+				BCAE97FB2DCA3A0E008AD58A /* Qiri Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEE41B12E0F9320002AC57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAE97B82DCA3A0B008AD58A /* Qiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE98092DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri" */;
+			buildPhases = (
+				BCAE97B52DCA3A0B008AD58A /* Sources */,
+				BCAE97B62DCA3A0B008AD58A /* Frameworks */,
+				BCAE97B72DCA3A0B008AD58A /* Resources */,
+				BCAE98082DCA3A0E008AD58A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEE41B52E0F933A002AC57E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BCAE97BB2DCA3A0B008AD58A /* Qiri */,
+			);
+			name = Qiri;
+			packageProductDependencies = (
+				BC48B1142DEFE20F00F9D89D /* CombineMoya */,
+				BC48B1162DEFE20F00F9D89D /* Moya */,
+				BC48B1182DEFE20F00F9D89D /* ReactiveMoya */,
+				BC48B11A2DEFE20F00F9D89D /* RxMoya */,
+			);
+			productName = Qiri;
+			productReference = BCAE97B92DCA3A0B008AD58A /* Qiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAE97C82DCA3A0D008AD58A /* QiriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE980C2DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "QiriTests" */;
+			buildPhases = (
+				BCAE97C52DCA3A0D008AD58A /* Sources */,
+				BCAE97C62DCA3A0D008AD58A /* Frameworks */,
+				BCAE97C72DCA3A0D008AD58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE97CB2DCA3A0D008AD58A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BCAE97CC2DCA3A0D008AD58A /* QiriTests */,
+			);
+			name = QiriTests;
+			packageProductDependencies = (
+			);
+			productName = QiriTests;
+			productReference = BCAE97C92DCA3A0D008AD58A /* QiriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAE97D22DCA3A0D008AD58A /* QiriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE980F2DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "QiriUITests" */;
+			buildPhases = (
+				BCAE97CF2DCA3A0D008AD58A /* Sources */,
+				BCAE97D02DCA3A0D008AD58A /* Frameworks */,
+				BCAE97D12DCA3A0D008AD58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE97D52DCA3A0D008AD58A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BCAE97D62DCA3A0D008AD58A /* QiriUITests */,
+			);
+			name = QiriUITests;
+			packageProductDependencies = (
+			);
+			productName = QiriUITests;
+			productReference = BCAE97D32DCA3A0D008AD58A /* QiriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BCAE97DE2DCA3A0D008AD58A /* Qiri Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE98052DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri Watch App" */;
+			buildPhases = (
+				BCAE97DB2DCA3A0D008AD58A /* Sources */,
+				BCAE97DC2DCA3A0D008AD58A /* Frameworks */,
+				BCAE97DD2DCA3A0D008AD58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCAE97E32DCA3A0D008AD58A /* Qiri Watch App */,
+			);
+			name = "Qiri Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Qiri Watch App";
+			productReference = BCAE97DF2DCA3A0D008AD58A /* Qiri Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAE97F02DCA3A0E008AD58A /* Qiri Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE98122DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri Watch AppTests" */;
+			buildPhases = (
+				BCAE97ED2DCA3A0E008AD58A /* Sources */,
+				BCAE97EE2DCA3A0E008AD58A /* Frameworks */,
+				BCAE97EF2DCA3A0E008AD58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE97F32DCA3A0E008AD58A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BCAE97F42DCA3A0E008AD58A /* Qiri Watch AppTests */,
+			);
+			name = "Qiri Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Qiri Watch AppTests";
+			productReference = BCAE97F12DCA3A0E008AD58A /* Qiri Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAE97FA2DCA3A0E008AD58A /* Qiri Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE98152DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri Watch AppUITests" */;
+			buildPhases = (
+				BCAE97F72DCA3A0E008AD58A /* Sources */,
+				BCAE97F82DCA3A0E008AD58A /* Frameworks */,
+				BCAE97F92DCA3A0E008AD58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE97FD2DCA3A0E008AD58A /* PBXTargetDependency */,
+			);
+			name = "Qiri Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Qiri Watch AppUITests";
+			productReference = BCAE97FB2DCA3A0E008AD58A /* Qiri Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAE97B12DCA3A0B008AD58A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					BCAE97B82DCA3A0B008AD58A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BCAE97C82DCA3A0D008AD58A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BCAE97B82DCA3A0B008AD58A;
+					};
+					BCAE97D22DCA3A0D008AD58A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BCAE97B82DCA3A0B008AD58A;
+					};
+					BCAE97DE2DCA3A0D008AD58A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BCAE97F02DCA3A0E008AD58A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BCAE97DE2DCA3A0D008AD58A;
+					};
+					BCAE97FA2DCA3A0E008AD58A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BCAE97DE2DCA3A0D008AD58A;
+					};
+				};
+			};
+			buildConfigurationList = BCAE97B42DCA3A0B008AD58A /* Build configuration list for PBXProject "Qiri" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAE97B02DCA3A0B008AD58A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BC48B1132DEF640300F9D89D /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BCAE97BA2DCA3A0B008AD58A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAE97B82DCA3A0B008AD58A /* Qiri */,
+				BCAE97C82DCA3A0D008AD58A /* QiriTests */,
+				BCAE97D22DCA3A0D008AD58A /* QiriUITests */,
+				BCAE97DE2DCA3A0D008AD58A /* Qiri Watch App */,
+				BCAE97F02DCA3A0E008AD58A /* Qiri Watch AppTests */,
+				BCAE97FA2DCA3A0E008AD58A /* Qiri Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAE97B72DCA3A0B008AD58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97C72DCA3A0D008AD58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97D12DCA3A0D008AD58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97DD2DCA3A0D008AD58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97EF2DCA3A0E008AD58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97F92DCA3A0E008AD58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAE97B52DCA3A0B008AD58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97C52DCA3A0D008AD58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97CF2DCA3A0D008AD58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97DB2DCA3A0D008AD58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97ED2DCA3A0E008AD58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE97F72DCA3A0E008AD58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAE97CB2DCA3A0D008AD58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE97B82DCA3A0B008AD58A /* Qiri */;
+			targetProxy = BCAE97CA2DCA3A0D008AD58A /* PBXContainerItemProxy */;
+		};
+		BCAE97D52DCA3A0D008AD58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE97B82DCA3A0B008AD58A /* Qiri */;
+			targetProxy = BCAE97D42DCA3A0D008AD58A /* PBXContainerItemProxy */;
+		};
+		BCAE97F32DCA3A0E008AD58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE97DE2DCA3A0D008AD58A /* Qiri Watch App */;
+			targetProxy = BCAE97F22DCA3A0E008AD58A /* PBXContainerItemProxy */;
+		};
+		BCAE97FD2DCA3A0E008AD58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE97DE2DCA3A0D008AD58A /* Qiri Watch App */;
+			targetProxy = BCAE97FC2DCA3A0E008AD58A /* PBXContainerItemProxy */;
+		};
+		BCEE41B52E0F933A002AC57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE97DE2DCA3A0D008AD58A /* Qiri Watch App */;
+			targetProxy = BCEE41B42E0F933A002AC57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCAE98032DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAE98042DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BCAE98062DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Qiri Watch App/Qiri Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qiri Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QLF22M2925;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Qiri-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Qiri;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "음성 인식을 위해 마이크 사용이 필요합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "음성 인식을 위해 마이크 접근이 필요합니다.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = start.Qiri;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.Qiri.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BCAE98072DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Qiri Watch App/Qiri Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qiri Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QLF22M2925;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Qiri-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Qiri;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "음성 인식을 위해 마이크 사용이 필요합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "음성 인식을 위해 마이크 접근이 필요합니다.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = start.Qiri;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.Qiri.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BCAE980A2DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Qiri/QiriDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qiri/Preview Content\"";
+				DEVELOPMENT_TEAM = QLF22M2925;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qiri/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Qiri;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.Qiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAE980B2DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Qiri/Qiri.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qiri/Preview Content\"";
+				DEVELOPMENT_TEAM = QLF22M2925;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qiri/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Qiri;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.Qiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAE980D2DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.QiriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Qiri";
+			};
+			name = Debug;
+		};
+		BCAE980E2DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.QiriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Qiri";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAE98102DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.QiriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qiri;
+			};
+			name = Debug;
+		};
+		BCAE98112DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = start.QiriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qiri;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAE98132DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "start.Qiri-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiri Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Qiri Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		BCAE98142DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "start.Qiri-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiri Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Qiri Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		BCAE98162DCA3A0E008AD58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "start.Qiri-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Qiri Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		BCAE98172DCA3A0E008AD58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVASB9RKAB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "start.Qiri-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Qiri Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAE97B42DCA3A0B008AD58A /* Build configuration list for PBXProject "Qiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE98032DCA3A0E008AD58A /* Debug */,
+				BCAE98042DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE98052DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE98062DCA3A0E008AD58A /* Debug */,
+				BCAE98072DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE98092DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE980A2DCA3A0E008AD58A /* Debug */,
+				BCAE980B2DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE980C2DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "QiriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE980D2DCA3A0E008AD58A /* Debug */,
+				BCAE980E2DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE980F2DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "QiriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE98102DCA3A0E008AD58A /* Debug */,
+				BCAE98112DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE98122DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE98132DCA3A0E008AD58A /* Debug */,
+				BCAE98142DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE98152DCA3A0E008AD58A /* Build configuration list for PBXNativeTarget "Qiri Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE98162DCA3A0E008AD58A /* Debug */,
+				BCAE98172DCA3A0E008AD58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC48B1132DEF640300F9D89D /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC48B1142DEFE20F00F9D89D /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC48B1132DEF640300F9D89D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		BC48B1162DEFE20F00F9D89D /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC48B1132DEF640300F9D89D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		BC48B1182DEFE20F00F9D89D /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC48B1132DEF640300F9D89D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		BC48B11A2DEFE20F00F9D89D /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC48B1132DEF640300F9D89D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BCAE97B12DCA3A0B008AD58A /* Project object */;
+}

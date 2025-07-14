@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Main_Qiri.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
